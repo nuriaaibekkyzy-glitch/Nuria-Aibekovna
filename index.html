@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Нурия Айбек кызы — преподаватель информатики</title>
+<meta name="description" content="Персональный сайт Нурии Айбек кызы: преподаватель информатики, КЭУ им. М. Рыскулбекова. Образование, опыт, публикации, сертификаты.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Manrope:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="topbar" id="topbar">
+  <a href="#home" class="logo">Нурия<span>.</span></a>
+  <nav class="nav" id="nav">
+    <a href="#about">Обо мне</a>
+    <a href="#education">Образование</a>
+    <a href="#career">Опыт</a>
+    <a href="#publications">Публикации</a>
+    <a href="#certificates">Сертификаты</a>
+    <a href="#contacts">Контакты</a>
+  </nav>
+  <button class="burger" id="burger" aria-label="Меню"><i></i><i></i><i></i></button>
+</header>
+
+<!-- ГЛАВНАЯ -->
+<section class="hero" id="home">
+  <div class="blob b1"></div><div class="blob b2"></div><div class="blob b3"></div>
+  <div class="hero-inner">
+    <div class="hero-photo reveal">
+      <div class="photo-ring"></div>
+      <div class="photo-frame">
+        <img src="images/photo.jpg" alt="Нурия Айбек кызы">
+      </div>
+      <div class="socials">
+        <a class="soc wa" href="https://wa.me/996776028994" target="_blank" rel="noopener" aria-label="WhatsApp">
+          <svg viewBox="0 0 24 24"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38a9.9 9.9 0 0 0 4.74 1.21c5.46 0 9.91-4.45 9.91-9.91S17.5 2 12.04 2zm0 18.15c-1.48 0-2.93-.4-4.2-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.17 8.17 0 0 1-1.26-4.38c0-4.54 3.7-8.23 8.25-8.23s8.23 3.69 8.23 8.23-3.7 8.24-8.23 8.24zm4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.12-.17.25-.64.81-.78.97-.14.17-.29.19-.54.06-.25-.12-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.02-.38.11-.51.11-.11.25-.29.37-.43.12-.14.16-.25.25-.41.08-.17.04-.31-.02-.43-.06-.12-.56-1.34-.76-1.84-.2-.48-.41-.42-.56-.42h-.48c-.17 0-.43.06-.66.31-.22.25-.86.85-.86 2.07s.89 2.4 1.01 2.56c.12.17 1.75 2.67 4.23 3.74.59.26 1.05.41 1.41.52.59.19 1.13.16 1.56.1.48-.07 1.47-.6 1.67-1.18.21-.58.21-1.07.14-1.18-.06-.1-.22-.16-.47-.28z"/></svg>
+          <span>WhatsApp</span>
+        </a>
+        <a class="soc yt" href="https://www.youtube.com/@%D0%9D%D1%83%D1%80%D0%B8%D1%8F%D0%90%D0%B9%D0%B1%D0%B5%D0%BA%D0%BA%D1%8B%D0%B7%D1%8B" target="_blank" rel="noopener" aria-label="YouTube">
+          <svg viewBox="0 0 24 24"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.6 12 3.6 12 3.6s-7.5 0-9.4.5A3 3 0 0 0 .5 6.2C0 8.1 0 12 0 12s0 3.9.5 5.8a3 3 0 0 0 2.1 2.1c1.9.5 9.4.5 9.4.5s7.5 0 9.4-.5a3 3 0 0 0 2.1-2.1c.5-1.9.5-5.8.5-5.8s0-3.9-.5-5.8zM9.6 15.6V8.4l6.2 3.6-6.2 3.6z"/></svg>
+          <span>YouTube</span>
+        </a>
+        <a class="soc ig" href="https://www.instagram.com/nuria94108/" target="_blank" rel="noopener" aria-label="Instagram">
+          <svg viewBox="0 0 24 24"><path d="M12 2.2c3.2 0 3.6 0 4.8.1 3.3.1 4.8 1.7 4.9 4.9.1 1.3.1 1.6.1 4.8s0 3.6-.1 4.8c-.1 3.2-1.7 4.8-4.9 4.9-1.3.1-1.6.1-4.8.1s-3.6 0-4.8-.1c-3.3-.1-4.8-1.7-4.9-4.9C2.2 15.6 2.2 15.2 2.2 12s0-3.6.1-4.8C2.4 3.9 4 2.4 7.2 2.3 8.4 2.2 8.8 2.2 12 2.2zM12 0C8.7 0 8.3 0 7.1.1 2.7.3.3 2.7.1 7.1 0 8.3 0 8.7 0 12s0 3.7.1 4.9c.2 4.4 2.6 6.8 7 7 1.2.1 1.6.1 4.9.1s3.7 0 4.9-.1c4.4-.2 6.8-2.6 7-7 .1-1.2.1-1.6.1-4.9s0-3.7-.1-4.9c-.2-4.4-2.6-6.8-7-7C15.7 0 15.3 0 12 0zm0 5.8a6.2 6.2 0 1 0 0 12.4 6.2 6.2 0 0 0 0-12.4zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.4-11.8a1.4 1.4 0 1 0 0 2.9 1.4 1.4 0 0 0 0-2.9z"/></svg>
+          <span>Instagram</span>
+        </a>
+      </div>
+    </div>
+
+    <div class="hero-text">
+      <p class="eyebrow reveal">Привет, я</p>
+      <h1 class="reveal d1">Нурия <em>Айбек кызы</em></h1>
+      <p class="role reveal d2">Преподаватель информатики · НИУ КЭУ им. М. Рыскулбекова</p>
+      <p class="lead reveal d3">Уже 14 лет я работаю с людьми и технологиями. Шесть из них — в классах и аудиториях, где помогаю студентам не бояться кода, цифровых инструментов и новых идей. Мне важно, чтобы знания были живыми и работали в реальной жизни.</p>
+      <div class="hero-tags reveal d4">
+        <span>Информатика</span><span>Цифровая экономика</span><span>Python &amp; Django</span><span>ИИ в образовании</span>
+      </div>
+      <a href="#about" class="btn reveal d4">Познакомиться ближе <b>↓</b></a>
+    </div>
+  </div>
+</section>
+
+<!-- ОБО МНЕ (сворачиваемый) -->
+<section class="section" id="about">
+  <div class="wrap narrow">
+    <div class="sec-head reveal"><span class="kicker">Знакомство</span><h2>Обо мне</h2></div>
+    <div class="fold reveal d1" id="fold">
+      <div class="fold-preview">
+        <p>Меня зовут Нурия. Я родилась в селе Кулунду Лейлекского района Баткенской области, а сегодня живу в Чуйской области и работаю в Бишкеке. Я преподаю информатику и цифровые дисциплины в Кыргызском экономическом университете имени Мусы Рыскулбекова.</p>
+      </div>
+      <div class="fold-body" id="foldBody">
+        <div class="fold-inner">
+          <p>Мой путь начался в школе: я вела информатику и работала социальным педагогом в Сулюктинской школе №3. Затем был университет, где я занималась организацией учебного процесса, потом — колледж и преподавание на кафедре. За эти годы я поняла главное: хороший преподаватель всегда остаётся студентом.</p>
+          <p>Я постоянно учусь сама — прохожу курсы по психологии, педагогике, нейросетям и цифровым технологиям, пишу научные статьи и учебные пособия на трёх языках, участвую в хакатонах и организую студенческие олимпиады.</p>
+          <ul class="facts">
+            <li><span>Национальность</span>Кыргыз</li>
+            <li><span>Родилась</span>с. Кулунду, Баткенская область</li>
+            <li><span>Живу</span>Чуйская область</li>
+            <li><span>Работаю</span>г. Бишкек, КЭУ им. М. Рыскулбекова</li>
+            <li><span>Общий стаж</span>14 лет</li>
+            <li><span>Педагогический стаж</span>6 лет</li>
+            <li><span>Языки</span>кыргызский, русский, английский</li>
+          </ul>
+        </div>
+      </div>
+      <button class="fold-btn" id="foldBtn" aria-expanded="false"><span>Читать дальше</span><i>＋</i></button>
+    </div>
+  </div>
+</section>
+
+<!-- ОБРАЗОВАНИЕ -->
+<section class="section alt" id="education">
+  <div class="wrap">
+    <div class="sec-head reveal"><span class="kicker">Фундамент</span><h2>Образование</h2></div>
+    <div class="edu-grid">
+      <article class="edu-card reveal from-left">
+        <div class="edu-year">2012 — 2016</div>
+        <div class="edu-degree">Бакалавр</div>
+        <h3>Кыргызский государственный университет им. И. Арабаева</h3>
+        <p>Институт новых информационных технологий</p>
+        <span class="chip">Информатика</span>
+      </article>
+      <div class="edu-line reveal"><i></i></div>
+      <article class="edu-card reveal from-right d1">
+        <div class="edu-year">2020 — 2022</div>
+        <div class="edu-degree">Магистр</div>
+        <h3>Кыргызский национальный университет им. Ж. Баласагына</h3>
+        <p>Факультет математики и информатики</p>
+        <span class="chip">Прикладная информатика</span>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ОПЫТ РАБОТЫ -->
+<section class="section" id="career">
+  <div class="wrap narrow">
+    <div class="sec-head reveal"><span class="kicker">Путь</span><h2>Опыт работы</h2></div>
+    <div class="stats reveal">
+      <div><b data-count="14">0</b><span>лет общего стажа</span></div>
+      <div><b data-count="6">0</b><span>лет в педагогике</span></div>
+      <div><b data-count="9">0</b><span>публикаций</span></div>
+    </div>
+    <div class="timeline">
+      <div class="tl-item reveal from-left"><div class="tl-dot"></div><div class="tl-card"><time>2016 — 2018</time><h3>Преподаватель информатики</h3><p>Сулюктинская региональная школа №3 им. М. Т. Ибрагимова</p></div></div>
+      <div class="tl-item reveal from-right"><div class="tl-dot"></div><div class="tl-card"><time>2016 — 2017</time><h3>Социальный педагог</h3><p>Сулюктинская региональная школа №3 им. М. Т. Ибрагимова</p></div></div>
+      <div class="tl-item reveal from-left"><div class="tl-dot"></div><div class="tl-card"><time>2019 — 2021</time><h3>Ведущий специалист-менеджер курса</h3><p>КНУ им. Ж. Баласагына</p></div></div>
+      <div class="tl-item reveal from-right"><div class="tl-dot"></div><div class="tl-card"><time>с 08.09.2022</time><h3>Преподаватель</h3><p>НИУ КЭУ им. М. Рыскулбекова — моё основное место работы</p></div></div>
+      <div class="tl-item reveal from-left"><div class="tl-dot"></div><div class="tl-card"><time>01.2023 — 06.2023</time><h3>Преподаватель</h3><p>КНУ им. Ж. Баласагына, IT колледж, учебный корпус №1</p></div></div>
+      <div class="tl-item reveal from-right"><div class="tl-dot now"></div><div class="tl-card"><time>09.2025 — 07.2026</time><h3>Преподаватель колледжа БТК</h3><p>КГТУ им. И. Раззакова (Политех)</p></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- МОИ НАПРАВЛЕНИЯ (дополняемый) -->
+<section class="section alt" id="directions">
+  <div class="wrap">
+    <div class="sec-head reveal"><span class="kicker">Чем живу профессионально</span><h2>Мои направления</h2></div>
+    <div class="cards" data-section="directions"></div>
+    <div class="add-zone"><button class="btn-add" data-add="directions">＋ Добавить текст и фото</button></div>
+  </div>
+</section>
+
+<!-- СТАЖИРОВКИ И СОБЫТИЯ (дополняемый) -->
+<section class="section" id="events">
+  <div class="wrap">
+    <div class="sec-head reveal"><span class="kicker">Хроника</span><h2>Стажировки и события</h2></div>
+    <div class="cards" data-section="events"></div>
+    <div class="add-zone"><button class="btn-add" data-add="events">＋ Добавить текст и фото</button></div>
+  </div>
+</section>
+
+<!-- ПОВЫШЕНИЕ КВАЛИФИКАЦИИ -->
+<section class="section alt" id="courses">
+  <div class="wrap">
+    <div class="sec-head reveal"><span class="kicker">Расту каждый год</span><h2>Повышение квалификации</h2></div>
+    <div class="cards" data-section="courses"></div>
+    <div class="add-zone"><button class="btn-add" data-add="courses">＋ Добавить новое повышение</button></div>
+  </div>
+</section>
+
+<!-- БЛАГОДАРСТВЕННЫЕ ПИСЬМА -->
+<section class="section" id="letters">
+  <div class="wrap">
+    <div class="sec-head reveal"><span class="kicker">Признание</span><h2>Благодарственные письма</h2></div>
+    <div class="letters">
+      <article class="letter reveal"><div class="seal">2023</div><h3>Организация III Международной студенческой олимпиады</h3><p>Благодарность от 03.05.2023 за организацию олимпиады.</p></article>
+      <article class="letter reveal d1"><div class="seal">2025</div><h3>Хакатон lackUni: «Умный университет будущего»</h3><p>Благодарственное письмо за участие в хакатоне.</p></article>
+      <article class="letter reveal d2"><div class="seal">2026</div><h3>За добросовестный труд и кураторскую работу</h3><p>За высокий профессионализм, вклад в воспитание студенческой молодёжи и активную кураторскую деятельность.</p></article>
+    </div>
+  </div>
+</section>
+
+<!-- ПУБЛИКАЦИИ -->
+<section class="section alt" id="publications">
+  <div class="wrap">
+    <div class="sec-head reveal"><span class="kicker">Наука и методика</span><h2>Публикации</h2></div>
+    <div class="cards list" data-section="publications"></div>
+    <div class="add-zone"><button class="btn-add" data-add="publications">＋ Добавить статью</button></div>
+  </div>
+</section>
+
+<!-- ГАЛЕРЕЯ -->
+<section class="section" id="gallery">
+  <div class="wrap">
+    <div class="sec-head reveal"><span class="kicker">Моменты</span><h2>Из жизни университета</h2></div>
+    <div class="cards masonry" data-section="gallery"></div>
+    <div class="add-zone"><button class="btn-add" data-add="gallery">＋ Добавить текст и фото</button></div>
+  </div>
+</section>
+
+<!-- СЕРТИФИКАТЫ -->
+<section class="section alt" id="certificates">
+  <div class="wrap">
+    <div class="sec-head reveal"><span class="kicker">Подтверждено документами</span><h2>Сертификаты</h2></div>
+    <div class="cards list certs" data-section="certificates"></div>
+    <div class="add-zone"><button class="btn-add" data-add="certificates">＋ Добавить сертификат</button></div>
+  </div>
+</section>
+
+<!-- НАГРАДЫ -->
+<section class="section awards" id="awards">
+  <div class="wrap narrow center">
+    <div class="sec-head reveal"><span class="kicker light">Главное признание</span><h2>Награды</h2></div>
+    <div class="medal reveal">
+      <div class="medal-glow"></div>
+      <div class="medal-icon">
+        <svg viewBox="0 0 64 64"><circle cx="32" cy="26" r="16" fill="none" stroke="currentColor" stroke-width="2.5"/><path d="M32 16l3.2 6.6 7.3 1-5.3 5.1 1.3 7.2L32 32.5l-6.5 3.4 1.3-7.2-5.3-5.1 7.3-1z" fill="currentColor"/><path d="M22 40l-6 18 10-4 6 8 4-14M42 40l6 18-10-4-6 8" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/></svg>
+      </div>
+      <h3>«Почётная грамота»</h3>
+      <p>НИУ КЭУ им. М. Рыскулбекова<br>Приказ №233/3 от 25.12.2025</p>
+    </div>
+  </div>
+</section>
+
+<!-- КОНТАКТЫ -->
+<section class="section" id="contacts">
+  <div class="wrap narrow center">
+    <div class="sec-head reveal"><span class="kicker">Давайте на связи</span><h2>Контакты</h2></div>
+    <p class="contact-lead reveal">Буду рада сотрудничеству, вопросам от студентов и коллег, идеям для совместных проектов. Пишите — отвечу лично.</p>
+    <div class="contact-list reveal d1">
+      <a href="https://wa.me/996776028994" target="_blank" rel="noopener" class="c-item"><small>WhatsApp</small><b>+996 776 028 994</b></a>
+      <a href="mailto:nuriaaibekkyzy@gmail.com" class="c-item"><small>Почта</small><b>nuriaaibekkyzy@gmail.com</b></a>
+      <div class="c-item"><small>Работа</small><b>Бишкек, ул. Тоголок Молдо 58, КЭУ</b></div>
+    </div>
+    <div class="socials row reveal d2">
+      <a class="soc wa" href="https://wa.me/996776028994" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><use href="#i-wa"/></svg><span>WhatsApp</span></a>
+      <a class="soc yt" href="https://www.youtube.com/@%D0%9D%D1%83%D1%80%D0%B8%D1%8F%D0%90%D0%B9%D0%B1%D0%B5%D0%BA%D0%BA%D1%8B%D0%B7%D1%8B" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><use href="#i-yt"/></svg><span>YouTube</span></a>
+      <a class="soc ig" href="https://www.instagram.com/nuria94108/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><use href="#i-ig"/></svg><span>Instagram</span></a>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">© <span id="year"></span> Нурия Айбек кызы</footer>
+
+<!-- Кнопка режима редактирования -->
+<button class="edit-toggle" id="editToggle" title="Режим редактирования">✎ <span>Редактировать</span></button>
+
+<!-- Окно добавления / редактирования -->
+<div class="modal" id="modal" hidden>
+  <div class="modal-box">
+    <button class="modal-x" id="modalX" aria-label="Закрыть">×</button>
+    <h3 id="modalTitle">Добавить</h3>
+    <label>Заголовок<input type="text" id="fTitle" placeholder="Название"></label>
+    <label>Дата или подпись<input type="text" id="fMeta" placeholder="Например: 2026 г."></label>
+    <label>Текст<textarea id="fText" rows="5" placeholder="Расскажите подробнее"></textarea></label>
+    <div class="photo-pick">
+      <img id="fPreview" alt="" hidden>
+      <div class="photo-btns">
+        <label class="btn-file">📷 Загрузить фото<input type="file" id="fFile" accept="image/*" hidden></label>
+        <button type="button" class="btn-link" id="fRemoveImg" hidden>Убрать фото</button>
+      </div>
+    </div>
+    <div class="modal-actions">
+      <button class="btn-ghost" id="fCancel">Отмена</button>
+      <button class="btn" id="fSave">Сохранить</button>
+    </div>
+  </div>
+</div>
+
+<div class="lightbox" id="lightbox" hidden><img alt=""></div>
+<input type="file" id="quickFile" accept="image/*" hidden>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-wa" viewBox="0 0 24 24"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38a9.9 9.9 0 0 0 4.74 1.21c5.46 0 9.91-4.45 9.91-9.91S17.5 2 12.04 2zm0 18.15c-1.48 0-2.93-.4-4.2-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.17 8.17 0 0 1-1.26-4.38c0-4.54 3.7-8.23 8.25-8.23s8.23 3.69 8.23 8.23-3.7 8.24-8.23 8.24zm4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.12-.17.25-.64.81-.78.97-.14.17-.29.19-.54.06-.25-.12-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.02-.38.11-.51.11-.11.25-.29.37-.43.12-.14.16-.25.25-.41.08-.17.04-.31-.02-.43-.06-.12-.56-1.34-.76-1.84-.2-.48-.41-.42-.56-.42h-.48c-.17 0-.43.06-.66.31-.22.25-.86.85-.86 2.07s.89 2.4 1.01 2.56c.12.17 1.75 2.67 4.23 3.74.59.26 1.05.41 1.41.52.59.19 1.13.16 1.56.1.48-.07 1.47-.6 1.67-1.18.21-.58.21-1.07.14-1.18-.06-.1-.22-.16-.47-.28z"/></symbol>
+  <symbol id="i-yt" viewBox="0 0 24 24"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.6 12 3.6 12 3.6s-7.5 0-9.4.5A3 3 0 0 0 .5 6.2C0 8.1 0 12 0 12s0 3.9.5 5.8a3 3 0 0 0 2.1 2.1c1.9.5 9.4.5 9.4.5s7.5 0 9.4-.5a3 3 0 0 0 2.1-2.1c.5-1.9.5-5.8.5-5.8s0-3.9-.5-5.8zM9.6 15.6V8.4l6.2 3.6-6.2 3.6z"/></symbol>
+  <symbol id="i-ig" viewBox="0 0 24 24"><path d="M12 2.2c3.2 0 3.6 0 4.8.1 3.3.1 4.8 1.7 4.9 4.9.1 1.3.1 1.6.1 4.8s0 3.6-.1 4.8c-.1 3.2-1.7 4.8-4.9 4.9-1.3.1-1.6.1-4.8.1s-3.6 0-4.8-.1c-3.3-.1-4.8-1.7-4.9-4.9C2.2 15.6 2.2 15.2 2.2 12s0-3.6.1-4.8C2.4 3.9 4 2.4 7.2 2.3 8.4 2.2 8.8 2.2 12 2.2zM12 0C8.7 0 8.3 0 7.1.1 2.7.3.3 2.7.1 7.1 0 8.3 0 8.7 0 12s0 3.7.1 4.9c.2 4.4 2.6 6.8 7 7 1.2.1 1.6.1 4.9.1s3.7 0 4.9-.1c4.4-.2 6.8-2.6 7-7 .1-1.2.1-1.6.1-4.9s0-3.7-.1-4.9c-.2-4.4-2.6-6.8-7-7C15.7 0 15.3 0 12 0zm0 5.8a6.2 6.2 0 1 0 0 12.4 6.2 6.2 0 0 0 0-12.4zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.4-11.8a1.4 1.4 0 1 0 0 2.9 1.4 1.4 0 0 0 0-2.9z"/></symbol>
+</svg>
+
+<script src="script.js"></script>
+</body>
+</html>
